@@ -1,0 +1,8 @@
+install.packages(c("RMySQL", "dplyr"))
+
+library(RMySQL)
+require(dplyr)
+
+if(!"RMySQL" %in% (.packages())){
+  require(RMySQL)
+  }
